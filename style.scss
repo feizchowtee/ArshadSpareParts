@@ -216,9 +216,11 @@ header {
 .mobile-menu {
     display: none;
     transition: all 0.4s cubic-bezier(0, .69, .42, .98);
-
+    visibility: hidden;
+    opacity: 0;;
     @media (max-width: 640px) {
         display: flex;
+        visibility: hidden;
         flex-direction: column;
         height: 100vh;
         align-items: flex-start;
@@ -271,6 +273,7 @@ header {
     height: 100vh;
     opacity: 1 !important;
     top: 0;
+    visibility: visible;
 }
 
 .hero {
@@ -616,6 +619,11 @@ header {
 .contact-intro {
     .section-title {
         width: 30%;
+
+        @media (max-width: 1140px) {
+            width: 100%;
+
+        }
     }
 
     .row {
@@ -623,11 +631,21 @@ header {
         display: flex;
         justify-content: center;
 
+        @media (max-width: 1140px) {
+            flex-direction: column;
+
+        }
+
         .contact-details {
             width: 30%;
             font-family: 'IBM Plex Mono';
             text-transform: uppercase;
             line-height: 1.6;
+
+            @media (max-width: 1140px) {
+                width: 100%;
+
+            }
 
             a {
                 color: $black;
@@ -638,12 +656,23 @@ header {
         .booking-form {
             width: 55%;
 
+            @media (max-width: 1140px) {
+                width: 100%;
+
+            }
+
             form {
                 width: 100%;
 
                 .form-row {
+                    width: 100%;
                     display: flex;
                     margin: 20px 0;
+
+                    @media (max-width: 1140px) {
+                        flex-direction: column;
+
+                    }
 
                     .col-full {
                         width: 100% !important;
@@ -660,6 +689,14 @@ header {
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
+                        &:first-child{
+                            margin-bottom: 20px;
+                        }
+                        @media (max-width: 1140px) {
+                            width: 100%;
+
+                        }
+
                         label {
                             font-family: 'IBM Plex Mono';
                             font-weight: 700;
@@ -670,10 +707,15 @@ header {
                         input,
                         select,
                         textarea {
-                            width:80%;
+                            width: 80%;
                             padding: 6px;
                             background: none;
                             border: 2px solid $black;
+
+                            @media (max-width: 1140px) {
+                                width: 100%;
+
+                            }
 
                         }
                     }
