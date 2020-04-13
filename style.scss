@@ -20,6 +20,7 @@ body {
     color: $text;
     background: $sec;
     line-height: 1.45;
+    overflow-x: hidden;
 }
 
 h1,
@@ -125,7 +126,7 @@ header {
     left: 0;
     background: $sec;
     width: 100%;
-    z-index: 999;
+    z-index: 9999 !important;
 
     @media (max-width:640px) {
         padding-top: 10px;
