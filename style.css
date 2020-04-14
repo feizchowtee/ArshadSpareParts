@@ -8,7 +8,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   color: #555;
-  background: #EBE6E0;
+  background: #f7f4f1;
   line-height: 1.45;
   overflow-x: hidden;
 }
@@ -48,7 +48,7 @@ h5 {
   font-size: 16px;
   font-family: 'IBM Plex Mono';
   letter-spacing: 0.05em;
-  color: #ABA399;
+  color: #99948c;
   text-transform: uppercase;
   margin-bottom: 12px;
 }
@@ -83,7 +83,7 @@ h6 {
   padding: 1em 2em;
   display: inline-block;
   background: #212121;
-  color: #EBE6E0;
+  color: #f7f4f1;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -130,7 +130,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  background: #EBE6E0;
+  background: #f7f4f1;
   width: 100%;
   z-index: 9999 !important;
 }
@@ -254,7 +254,7 @@ header .burger {
     padding: 0 32px;
     position: fixed;
     z-index: 999;
-    background: #EBE6E0;
+    background: #f7f4f1;
     width: 100%;
     top: -10000;
     left: 0;
@@ -966,9 +966,9 @@ header .burger {
 }
 
 .contact-section .section-title .links {
-  color: #EBE6E0;
-  -webkit-text-decoration: underline #EBE6E0;
-          text-decoration: underline #EBE6E0;
+  color: #f7f4f1;
+  -webkit-text-decoration: underline #f7f4f1;
+          text-decoration: underline #f7f4f1;
 }
 
 .store-locations {
@@ -1055,7 +1055,7 @@ header .burger {
 .store-locations .locations .store .title h1 span {
   font-size: 6rem;
   font-family: 'IBM Plex Mono';
-  color: #ABA399;
+  color: #99948c;
   position: absolute;
   z-index: -1;
   bottom: 0;
@@ -1132,7 +1132,7 @@ footer .footer-body {
 }
 
 footer .footer-body h1 {
-  color: #ABA399;
+  color: #99948c;
   margin-bottom: 30px;
 }
 
@@ -1141,14 +1141,15 @@ footer .footer-body ul li {
 }
 
 footer .footer-body .links {
-  color: #EBE6E0;
-  -webkit-text-decoration: underline #EBE6E0;
-          text-decoration: underline #EBE6E0;
+  color: #f7f4f1;
+  -webkit-text-decoration: underline #f7f4f1;
+          text-decoration: underline #f7f4f1;
   font-weight: 400;
 }
 
 footer .copyright {
   padding-top: 70px;
+  padding-bottom: 30px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1156,6 +1157,10 @@ footer .copyright {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+footer .copyright span {
+  color: #f7f4f1;
 }
 
 @media (max-width: 640px) {
@@ -1170,9 +1175,9 @@ footer .copyright {
     text-align: center;
   }
   footer .copyright span:nth-child(2) a {
-    color: #EBE6E0;
-    -webkit-text-decoration: underline #EBE6E0;
-            text-decoration: underline #EBE6E0;
+    color: #f7f4f1;
+    -webkit-text-decoration: underline #f7f4f1;
+            text-decoration: underline #f7f4f1;
   }
 }
 
