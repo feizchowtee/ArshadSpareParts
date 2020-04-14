@@ -48,6 +48,25 @@ $('h5').each(function(i){
    .setTween(animateTitles).addTo(controller);
 
 });
+$('p').each(function(i){
+
+    var bodyText = $(this);
+
+    var animateTitles = new TimelineMax();
+    animateTitles
+    .from(bodyText, 0.5, { skewX: -10, autoAlpha: 0, y: 10 });
+
+
+
+   new ScrollMagic.Scene({
+       triggerElement : this,
+       triggerHook: 0.8
+       
+   })
+   .setTween(animateTitles).addTo(controller);
+
+});
+
 
 
 $('.list-item').each(function(i){
@@ -57,6 +76,24 @@ $('.list-item').each(function(i){
     var animateTitles = new TimelineMax();
     animateTitles
     .from(listItem, 0.5, { skewX: 10, autoAlpha: 0, y: 30, stagger: 0.4 });
+
+
+
+   new ScrollMagic.Scene({
+       triggerElement : this,
+       triggerHook: 0.8
+       
+   })
+   .setTween(animateTitles).addTo(controller);
+
+});
+$('.image-anim').each(function(i){
+
+    var imageAnim = $(this);
+
+    var animateTitles = new TimelineMax();
+    animateTitles
+    .from(imageAnim, 0.5, { skewX: 10, autoAlpha: 0, y: 30, stagger: 0.4 });
 
 
 

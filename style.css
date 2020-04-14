@@ -253,7 +253,7 @@ header .burger {
             justify-content: center;
     padding: 0 32px;
     position: fixed;
-    z-index: 989;
+    z-index: 999;
     background: #EBE6E0;
     width: 100%;
     top: -10000;
@@ -1169,7 +1169,7 @@ footer .copyright {
             align-items: center;
     text-align: center;
   }
-  footer .copyright p:nth-child(2) a {
+  footer .copyright span:nth-child(2) a {
     color: #EBE6E0;
     -webkit-text-decoration: underline #EBE6E0;
             text-decoration: underline #EBE6E0;
