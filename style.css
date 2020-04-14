@@ -752,6 +752,36 @@ header .burger {
   color: #212121;
 }
 
+.hero-repairs {
+  padding: 0 275px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media (max-width: 640px) {
+  .hero-repairs {
+    padding: 0 32px;
+  }
+}
+
+.hero-repairs .about-repairs .box {
+  position: relative;
+}
+
+.hero-repairs .about-repairs .box .badge {
+  position: absolute;
+  width: 30%;
+  bottom: 0;
+  right: -2%;
+}
+
+.hero-repairs .about-repairs .box ul li {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: 'IBM Plex Sans';
+  color: #212121;
+}
+
 .contact-intro .section-title {
   width: 30%;
 }

@@ -218,7 +218,9 @@ header {
     display: none;
     transition: all 0.4s cubic-bezier(0, .69, .42, .98);
     visibility: hidden;
-    opacity: 0;;
+    opacity: 0;
+    ;
+
     @media (max-width: 640px) {
         display: flex;
         visibility: hidden;
@@ -588,7 +590,7 @@ header {
         }
 
         @media (max-width:1140px) {
-            
+
             width: 50%;
         }
 
@@ -609,6 +611,51 @@ header {
                     font-weight: 700;
                     font-family: 'IBM Plex Sans';
                     color: $black;
+
+                }
+            }
+
+        }
+    }
+}
+
+.hero-repairs {
+    padding: 0 275px;
+    margin-top: 0;
+    margin-bottom: 0;
+    @media (max-width:640px) {
+        //flex-direction: column;
+       
+        padding: 0 32px;
+    
+    }
+    .about-repairs {
+      
+     
+        
+
+      
+        
+        
+
+        .box {
+
+            position: relative;
+
+            .badge {
+                position: absolute;
+                width: 30%;
+                bottom: 0;
+                right: -2%;
+            }
+
+            ul {
+                li {
+                    font-size: 48px;
+                    font-weight: 700;
+                    font-family: 'IBM Plex Sans';
+                    color: $black;
+                    
 
                 }
             }
@@ -690,9 +737,11 @@ header {
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
-                        &:first-child{
+
+                        &:first-child {
                             margin-bottom: 20px;
                         }
+
                         @media (max-width: 1140px) {
                             width: 100%;
 
