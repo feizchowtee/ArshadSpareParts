@@ -1144,6 +1144,7 @@ footer .footer-body .links {
   color: #EBE6E0;
   -webkit-text-decoration: underline #EBE6E0;
           text-decoration: underline #EBE6E0;
+  font-weight: 400;
 }
 
 footer .copyright {
@@ -1172,5 +1173,11 @@ footer .copyright {
     color: #EBE6E0;
     -webkit-text-decoration: underline #EBE6E0;
             text-decoration: underline #EBE6E0;
+  }
+}
+
+@media (max-width: 640px) {
+  .list-items {
+    font-size: 42px;
   }
 }

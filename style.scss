@@ -928,12 +928,14 @@ footer {
         ul {
             li {
                 line-height: 1.6;
+
             }
         }
 
         .links {
             color: $sec;
             text-decoration: underline $sec;
+            font-weight: 400;
         }
     }
 
@@ -957,4 +959,10 @@ footer {
         }
 
     }
+}
+
+.list-items{
+    @media (max-width: 640px) {
+        font-size: 42px;
+    }   
 }
