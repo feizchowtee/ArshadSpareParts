@@ -111,7 +111,7 @@ $('.product').each(function(i){
 
     var animateTitles = new TimelineMax();
     animateTitles
-    .from(product, 0.5, { skewX: 10, autoAlpha: 0, y: 30, stagger: 0.4 });
+    .from(product, 0.45, { skewX: 6, autoAlpha: 0, y: 30,stagger: 0.6});
 
 
 

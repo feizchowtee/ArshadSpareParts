@@ -843,11 +843,11 @@ header .burger {
 }
 
 .contact-intro .row .booking-form form .form-row {
-  width: 100%;
+  width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 20px 0;
+  margin: 16px 0;
 }
 
 @media (max-width: 1140px) {
@@ -931,6 +931,7 @@ header .burger {
       -ms-flex-pack: center;
           justify-content: center;
   background: url("/assets/contact-section-bg.png");
+  margin-bottom: 0;
 }
 
 @media (max-width: 640px) {
@@ -1078,6 +1079,10 @@ header .burger {
 
 .privacy-policy .content {
   width: 30%;
+}
+
+.contact-store-locations {
+  margin-bottom: 150px;
 }
 
 footer {
